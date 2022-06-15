@@ -19,3 +19,18 @@ function multiplica(texto, repeticoes) {
   }
   return a
 }
+
+function listar(nome1, nome2, nome3) {
+  return [nome1,nome2,nome3]
+}
+
+function dobraASoma(lista) {
+    let a = 0
+    let soma = 0
+    while(a<3){
+    
+     soma = soma + lista[a]
+     a = a +1
+    }
+    return soma*2
+}
